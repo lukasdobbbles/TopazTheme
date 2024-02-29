@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DaisyUI + Tailwind Theme Demo</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="antialiased" data-theme="topaz">
+    <nav class="bg-primary text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a class="text-lg font-semibold" href="#">Brand</a>
+        <div class="hidden md:flex space-x-4">
+          <a href="#" class="hover:underline">Home</a>
+          <a href="#" class="hover:underline">About</a>
+          <a href="#" class="hover:underline">Services</a>
+          <a href="#" class="hover:underline">Contact</a>
+        </div>
+        <button class="md:hidden btn btn-square btn-ghost">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="inline-block w-6 h-6 stroke-current"
+          >
+            ...
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-bold text-center my-8">
+        DaisyUI + Tailwind Theme Demo
+      </h1>
+
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-accent">Accent</button>
+      <button class="btn btn-ghost">Ghost</button>
+
+      <div class="card w-96">
+        <figure>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Sydney_Opera_House_Sails_edit02_adj.JPG"
+            alt="Architecture"
+          />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <p>
+            This is a sample card. You can use this section to demonstrate your
+            theme's card styling.
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="form-control w-full max-w-xs">
+        <label class="label">
+          <span class="label-text">Email</span>
+        </label>
+        <input
+          type="text"
+          placeholder="info@example.com"
+          class="input input-bordered w-full max-w-xs"
+        />
+        <label class="label">
+          <span class="label-text">Password</span>
+        </label>
+        <input
+          type="password"
+          placeholder="password"
+          class="input input-bordered w-full max-w-xs"
+        />
+        <button class="btn btn-primary mt-4">Login</button>
+      </div>
+      <div class="alert alert-success">
+        <div class="flex-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="w-6 h-6 mx-2 stroke-current"
+          >
+            ...
+          </svg>
+          <label>Success: This is a success alert.</label>
+        </div>
+      </div>
+      <span class="badge badge-primary">New</span>
+      <span class="badge badge-accent">Featured</span>
+      <div class="tabs">
+        <a class="tab tab-lifted">Tab 1</a>
+        <a class="tab tab-lifted tab-active">Tab 2</a>
+        <a class="tab tab-lifted">Tab 3</a>
+      </div>
+    </div>
+    <footer class="bg-neutral text-white p-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Your Brand. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

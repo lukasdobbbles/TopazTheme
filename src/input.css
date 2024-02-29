@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("https://assets.website-files.com/6005fac27a49a9cd477afb63/61675a18d0c9b76ed70a9f0d_RobotoMono-VariableFont_wght.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/6005fac27a49a9cd477afb63/616753bd2975624715431dbf_Matter-SemiBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/6005fac27a49a9cd477afb63/616753bdc330b5ec929e7c03_Matter-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/6005fac27a49a9cd477afb63/616753bdf9544f2ac06283b2_Matter-Medium.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Matter";
+  src: url("https://assets.website-files.com/6005fac27a49a9cd477afb63/61961be0d4f210053f8e676f_Matter-Bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Font awesome 6 Pro";
+  src: url("https://assets.website-files.com/6005fac27a49a9cd477afb63/642c4bbfa182d955f30c85ed_Font%20Awesome%206%20Pro-Regular-400.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
